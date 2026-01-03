@@ -1,0 +1,64 @@
+/* Light mode table theme */
+.content_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 400px;
+    color: #1a1f27;
+}
+
+.dark .content_table {
+    color: #aabad1;
+}
+
+.content_table thead tr {
+    background-color: #f3f7fc;
+    color: #1a1f27;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dark .content_table thead tr {
+    background-color: #182134;
+    color: #aabad1;
+}
+
+.content_table th,
+.content_table td {
+    padding: 12px 15px;
+}
+
+.content_table tbody tr {
+    border-bottom: 1px solid #e4e8ee;
+}
+
+.dark .content_table tbody tr {
+    border-bottom: 1px solid #e2e8f01a;
+}
+
+.content_table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.content_table tbody tr:hover {
+    background-color: #eef4ff;
+    cursor: pointer;
+}
+
+.dark .content_table tbody tr:hover {
+    background-color: #182134;
+}
+
+.content_table thead tr th {
+    padding: 12px 24px;
+}
+
+.content_table tbody tr td {
+    padding: 16px 24px;
+}
+
+.content_table tbody tr td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
